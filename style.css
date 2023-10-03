@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face  {
+  font-family: "naruto";
+  src: url("njnaruto.ttf")
+  format(truetype)
+}
+@font-face {
+  font-family: "sansli";
+  src: url("LiberationSans-Regular.ttf")
+  format(truetype)
+}
+
+header > h1 {
+  font-family: "naruto";
+  text-align: center;
+  font-size: 2em; 
+  padding: 10px;
+  color:#F57B55;
+  text-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+
+  body {
+  background-image: linear-gradient(to bottom, #F57B55, #09426D);
+  }
+
+main {
+  background-color: #F57B55;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  padding: 9px;
+  margin: auto;
+}
+h3 {
+  text-indent: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "sansli";
+  text-shadow: 2px 2px 2px black;
+  line-height: 2em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-family: "naruto"; 
+  color: #F57B55; 
+  background-color: #09426D;  
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 20px;
+}
+  h4 {
+   font-family: "naruto";
+   color: #F57B55;
+   text-shadow: 5px 5px 5px black;
+   text-align: left;
+  }
+
+a {
+ color: #F57B55;
+ text-decoration: none;
+ text-shadow: 2px 2px 2px black;
+ font-style: bold;
+
+}
+a:hover {
+  text-decoration: underline;
+  
+}
+a:active {
+  color: blue;
+}
+a:hover::after {
+  color: black;
+  text-shadow: none;
+  display: block;
+}
+a:hover::before {
+  color: black;
+  text-shadow: none;
+  display: block;
+}
+h1 {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto; 
+  max-height: 500px;
+  max-width: 900px;
+}
+
+h4 {
+  text-align: center;
+}
+ul > li {
+  text-align: center;
+}
+div.video {
+ 
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 57% ;
+}
+div.video>iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
